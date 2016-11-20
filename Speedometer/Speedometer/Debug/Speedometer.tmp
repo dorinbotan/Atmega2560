@@ -1,0 +1,30 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATmega2560"</DEVICE>
+ <WORKING_DIR>C:\Users\Dorin\Atmel\Speedometer\Speedometer\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Dorin\Atmel\Speedometer\Speedometer\Speedometer.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\m2560def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Dorin\Atmel\Speedometer\Speedometer\Debug/Speedometer.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Speedometer.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Speedometer.map</FILE>
+  <FILE>Speedometer.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <MAIN><FILE>C:\Users\Dorin\Atmel\Speedometer\Speedometer\Speedometer.asm</FILE><LINE>11</LINE></MAIN>
+  <DELAY><FILE>C:\Users\Dorin\Atmel\Speedometer\Speedometer\Speedometer.asm</FILE><LINE>24</LINE></DELAY>
+  <LOOP3><FILE>C:\Users\Dorin\Atmel\Speedometer\Speedometer\Speedometer.asm</FILE><LINE>26</LINE></LOOP3>
+  <LOOP2><FILE>C:\Users\Dorin\Atmel\Speedometer\Speedometer\Speedometer.asm</FILE><LINE>27</LINE></LOOP2>
+  <LOOP1><FILE>C:\Users\Dorin\Atmel\Speedometer\Speedometer\Speedometer.asm</FILE><LINE>28</LINE></LOOP1>
+ </LABELS>
+</ASSEMBLER_INFO>

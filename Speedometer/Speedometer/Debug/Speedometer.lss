@@ -1,0 +1,5 @@
+
+AVRASM ver. 2.1.57  C:\Users\Dorin\Atmel\Speedometer\Speedometer\Speedometer.asm Fri Oct 30 16:28:47 2015
+
+[builtin](2): Including file 'C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\m2560def.inc'
+C:\Users\Dorin\Atmel\Speedometer\Speedometer\Speedometer.asm(7): error: Cannot find include file: LegoInterface_asm.mht

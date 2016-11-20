@@ -1,0 +1,5 @@
+
+AVRASM ver. 2.2.0  C:\Users\Dorin\Atmel\Blink\Blink\Blink.asm Sun Mar 13 16:58:17 2016
+
+[builtin](2): error: Cannot find include file: ($IncludeFile)
+C:\Users\Dorin\Atmel\Blink\Blink\Blink.asm(0): '[builtin]' included form here

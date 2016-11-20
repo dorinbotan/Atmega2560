@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Atmel Studio Solution File, Format Version 11.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "FreeRTOS_VIA2", "FreeRTOS_VIA2.cproj", "{1FBC4E67-2D27-4492-BBB2-5FDD901A1310}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FBC4E67-2D27-4492-BBB2-5FDD901A1310}.Debug|AVR.ActiveCfg = Debug|AVR
+		{1FBC4E67-2D27-4492-BBB2-5FDD901A1310}.Debug|AVR.Build.0 = Debug|AVR
+		{1FBC4E67-2D27-4492-BBB2-5FDD901A1310}.Release|AVR.ActiveCfg = Release|AVR
+		{1FBC4E67-2D27-4492-BBB2-5FDD901A1310}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

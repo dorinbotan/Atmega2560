@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>6.2</ProjectVersion>
+    <ToolchainName>com.Atmel.AVRGCC8.C</ToolchainName>
+    <ProjectGuid>{1fbc4e67-2d27-4492-bbb2-5fdd901a1310}</ProjectGuid>
+    <avrdevice>ATmega2560</avrdevice>
+    <avrdeviceseries>none</avrdeviceseries>
+    <OutputType>Executable</OutputType>
+    <Language>C</Language>
+    <OutputFileName>$(MSBuildProjectName)</OutputFileName>
+    <OutputFileExtension>.elf</OutputFileExtension>
+    <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
+    <AssemblyName>FreeRTOS_VIA2</AssemblyName>
+    <Name>FreeRTOS_VIA2</Name>
+    <RootNamespace>FreeRTOS_VIA2</RootNamespace>
+    <ToolchainFlavour>Native</ToolchainFlavour>
+    <KeepTimersRunning>true</KeepTimersRunning>
+    <OverrideVtor>false</OverrideVtor>
+    <CacheFlash>true</CacheFlash>
+    <ProgFlashFromRam>true</ProgFlashFromRam>
+    <RamSnippetAddress>0x20000000</RamSnippetAddress>
+    <UncachedRange />
+    <OverrideVtorValue>exception_table</OverrideVtorValue>
+    <BootSegment>2</BootSegment>
+    <eraseonlaunchrule>0</eraseonlaunchrule>
+    <AsfFrameworkConfig>
+      <framework-data>
+  <options />
+  <configurations />
+  <files />
+  <documentation help="" />
+  <offline-documentation help="" />
+  <dependencies>
+    <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.18.1" />
+  </dependencies>
+</framework-data>
+    </AsfFrameworkConfig>
+    <avrtool>com.atmel.avrdbg.tool.stk600</avrtool>
+    <com_atmel_avrdbg_tool_atmelice>
+      <ToolOptions>
+        <InterfaceProperties>
+        </InterfaceProperties>
+        <InterfaceName>JTAG</InterfaceName>
+      </ToolOptions>
+      <ToolType>com.atmel.avrdbg.tool.atmelice</ToolType>
+      <ToolNumber>J41800025951</ToolNumber>
+      <ToolName>Atmel-ICE</ToolName>
+    </com_atmel_avrdbg_tool_atmelice>
+    <avrtoolinterface>ISP</avrtoolinterface>
+    <preserveEEPROM>true</preserveEEPROM>
+    <com_atmel_avrdbg_tool_stk600>
+      <ToolOptions>
+        <InterfaceProperties>
+          <JtagEnableExtResetOnStartSession>true</JtagEnableExtResetOnStartSession>
+          <JtagInChain>false</JtagInChain>
+          <JtagDevicesBefore>0</JtagDevicesBefore>
+          <JtagDevicesAfter>0</JtagDevicesAfter>
+          <JtagInstrBitsBefore>0</JtagInstrBitsBefore>
+          <JtagInstrBitsAfter>0</JtagInstrBitsAfter>
+          <JtagSelectedDeviceIndexInChain>
+          </JtagSelectedDeviceIndexInChain>
+          <JtagDbgClock>0</JtagDbgClock>
+          <JtagDaisyChainDevices>
+          </JtagDaisyChainDevices>
+          <IspClock>1000000</IspClock>
+        </InterfaceProperties>
+        <InterfaceName>ISP</InterfaceName>
+      </ToolOptions>
+      <ToolType>com.atmel.avrdbg.tool.stk600</ToolType>
+      <ToolNumber>0045E5507DEF</ToolNumber>
+      <ToolName>STK600</ToolName>
+    </com_atmel_avrdbg_tool_stk600>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <ToolchainSettings>
+      <AvrGcc>
+        <avrgcc.common.optimization.RelaxBranches>True</avrgcc.common.optimization.RelaxBranches>
+        <avrgcc.common.outputfiles.hex>True</avrgcc.common.outputfiles.hex>
+        <avrgcc.common.outputfiles.lss>True</avrgcc.common.outputfiles.lss>
+        <avrgcc.common.outputfiles.eep>True</avrgcc.common.outputfiles.eep>
+        <avrgcc.common.outputfiles.srec>True</avrgcc.common.outputfiles.srec>
+        <avrgcc.common.outputfiles.usersignatures>False</avrgcc.common.outputfiles.usersignatures>
+        <avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>True</avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>
+        <avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>
+        <avrgcc.compiler.symbols.DefSymbols>
+          <ListValues>
+            <Value>NDEBUG</Value>
+          </ListValues>
+        </avrgcc.compiler.symbols.DefSymbols>
+        <avrgcc.compiler.optimization.level>Optimize for size (-Os)</avrgcc.compiler.optimization.level>
+        <avrgcc.compiler.optimization.PackStructureMembers>True</avrgcc.compiler.optimization.PackStructureMembers>
+        <avrgcc.compiler.optimization.AllocateBytesNeededForEnum>True</avrgcc.compiler.optimization.AllocateBytesNeededForEnum>
+        <avrgcc.compiler.warnings.AllWarnings>True</avrgcc.compiler.warnings.AllWarnings>
+        <avrgcc.linker.libraries.Libraries>
+          <ListValues>
+            <Value>libm</Value>
+          </ListValues>
+        </avrgcc.linker.libraries.Libraries>
+      </AvrGcc>
+    </ToolchainSettings>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <ToolchainSettings>
+      <AvrGcc>
+        <avrgcc.common.optimization.RelaxBranches>True</avrgcc.common.optimization.RelaxBranches>
+        <avrgcc.common.outputfiles.hex>True</avrgcc.common.outputfiles.hex>
+        <avrgcc.common.outputfiles.lss>True</avrgcc.common.outputfiles.lss>
+        <avrgcc.common.outputfiles.eep>True</avrgcc.common.outputfiles.eep>
+        <avrgcc.common.outputfiles.srec>True</avrgcc.common.outputfiles.srec>
+        <avrgcc.common.outputfiles.usersignatures>False</avrgcc.common.outputfiles.usersignatures>
+        <avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>True</avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>
+        <avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>
+        <avrgcc.compiler.symbols.DefSymbols>
+          <ListValues>
+            <Value>DEBUG</Value>
+            <Value>F_CPU=10000000L</Value>
+            <Value>GCC_MEGA_AVR</Value>
+          </ListValues>
+        </avrgcc.compiler.symbols.DefSymbols>
+        <avrgcc.compiler.directories.IncludePaths>
+          <ListValues>
+            <Value>../src</Value>
+            <Value>../src/FreeRTOS/Source/portable/GCC/ATMega256x</Value>
+            <Value>../src/FreeRTOS/Source/include</Value>
+            <Value>../src/Common/include</Value>
+          </ListValues>
+        </avrgcc.compiler.directories.IncludePaths>
+        <avrgcc.compiler.optimization.PackStructureMembers>True</avrgcc.compiler.optimization.PackStructureMembers>
+        <avrgcc.compiler.optimization.AllocateBytesNeededForEnum>True</avrgcc.compiler.optimization.AllocateBytesNeededForEnum>
+        <avrgcc.compiler.optimization.DebugLevel>Default (-g2)</avrgcc.compiler.optimization.DebugLevel>
+        <avrgcc.compiler.warnings.AllWarnings>True</avrgcc.compiler.warnings.AllWarnings>
+        <avrgcc.linker.libraries.Libraries>
+          <ListValues>
+            <Value>libm</Value>
+          </ListValues>
+        </avrgcc.linker.libraries.Libraries>
+        <avrgcc.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcc.assembler.debugging.DebugLevel>
+      </AvrGcc>
+    </ToolchainSettings>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="src\" />
+    <Folder Include="src\Common\" />
+    <Folder Include="src\Common\include\" />
+    <Folder Include="src\Common\Minimal\" />
+    <Folder Include="src\FreeRTOS\" />
+    <Folder Include="src\FreeRTOS\License\" />
+    <Folder Include="src\FreeRTOS\Source\" />
+    <Folder Include="src\FreeRTOS\Source\include\" />
+    <Folder Include="src\FreeRTOS\Source\portable\" />
+    <Folder Include="src\FreeRTOS\Source\portable\GCC\" />
+    <Folder Include="src\FreeRTOS\Source\portable\GCC\ATMega256x\" />
+    <Folder Include="src\FreeRTOS\Source\portable\MemMang\" />
+    <Folder Include="src\serial\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="src\Common\include\AltBlckQ.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\AltBlock.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\AltPollQ.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\AltQTest.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\BlockQ.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\blocktim.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\comtest.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\comtest2.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\comtest_strings.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\countsem.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\crflash.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\crhook.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\death.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\dynamic.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\EventGroupsDemo.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\fileIO.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\flash.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\flash_timer.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\flop.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\GenQTest.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\integer.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\IntQueue.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\IntSemTest.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\mevents.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\partest.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\PollQ.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\print.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\QPeek.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\QueueOverwrite.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\QueueSet.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\QueueSetPolling.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\recmutex.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\semtest.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\serial.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\TaskNotify.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\Common\include\TimerDemo.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <None Include="src\Common\Minimal\AltBlckQ.c">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\Common\Minimal\AltBlock.c">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\Common\Minimal\AltPollQ.c">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\Common\Minimal\AltQTest.c">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\Common\Minimal\BlockQ.c">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\Common\Minimal\blocktim.c">
+      <SubType>compile</SubType>
+    </None>
+    <Compile Include="src\Common\Minimal\comtest.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <None Include="src\Common\Minimal\comtest_strings.c">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\Common\Minimal\countsem.c">
+      <SubType>compile</SubType>
+    </None>
+    <Compile Include="src\Common\Minimal\crflash.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <None Include="src\Common\Minimal\crhook.c">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\Common\Minimal\death.c">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\Common\Minimal\dynamic.c">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\Common\Minimal\EventGroupsDemo.c">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\Common\Minimal\flash.c">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\Common\Minimal\flash_timer.c">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\Common\Minimal\flop.c">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\Common\Minimal\GenQTest.c">
+      <SubType>compile</SubType>
+    </None>
+    <Compile Include="src\Common\Minimal\integer.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <None Include="src\Common\Minimal\IntQueue.c">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\Common\Minimal\IntSemTest.c">
+      <SubType>compile</SubType>
+    </None>
+    <Compile Include="src\Common\Minimal\PollQ.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <None Include="src\Common\Minimal\QPeek.c">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\Common\Minimal\QueueOverwrite.c">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\Common\Minimal\QueueSet.c">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\Common\Minimal\QueueSetPolling.c">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\Common\Minimal\recmutex.c">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\Common\Minimal\semtest.c">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\Common\Minimal\sp_flop.c">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\Common\Minimal\TaskNotify.c">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\Common\Minimal\TimerDemo.c">
+      <SubType>compile</SubType>
+    </None>
+    <Compile Include="src\FreeRTOSConfig.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\FreeRTOS\Source\event_groups.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\FreeRTOS\Source\include\croutine.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\FreeRTOS\Source\include\deprecated_definitions.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\FreeRTOS\Source\include\event_groups.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\FreeRTOS\Source\include\FreeRTOS.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\FreeRTOS\Source\include\list.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\FreeRTOS\Source\include\mpu_wrappers.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\FreeRTOS\Source\include\portable.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\FreeRTOS\Source\include\projdefs.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\FreeRTOS\Source\include\queue.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\FreeRTOS\Source\include\semphr.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\FreeRTOS\Source\include\StackMacros.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\FreeRTOS\Source\include\task.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\FreeRTOS\Source\include\timers.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\FreeRTOS\Source\list.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\FreeRTOS\Source\portable\croutine.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\FreeRTOS\Source\portable\GCC\ATMega256x\port.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\FreeRTOS\Source\portable\GCC\ATMega256x\portmacro.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\FreeRTOS\Source\portable\MemMang\heap_1.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <None Include="src\FreeRTOS\Source\portable\MemMang\heap_2.c">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\FreeRTOS\Source\portable\MemMang\heap_3.c">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\FreeRTOS\Source\portable\MemMang\heap_4.c">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\FreeRTOS\Source\portable\MemMang\heap_5.c">
+      <SubType>compile</SubType>
+    </None>
+    <Compile Include="src\FreeRTOS\Source\queue.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\FreeRTOS\Source\tasks.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\FreeRTOS\Source\timers.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\main.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="src\serial\serial.c">
+      <SubType>compile</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\FreeRTOS\License\license.txt">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\FreeRTOS\readme.txt">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\FreeRTOS\Source\include\stdint.readme">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\FreeRTOS\Source\portable\readme.txt">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\FreeRTOS\Source\readme.txt">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="src\makefile">
+      <SubType>compile</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Compiler.targets" />
+</Project>

@@ -1,0 +1,43 @@
+/*
+ * Arithmetic.asm
+ *
+ *  Created: 06/10/15 09:29:51
+ *   Author: Dorin
+ */ 
+
+
+ LDI R16, 0x9A
+ LDI R17, 0x7F
+
+ LDI R18, 0x48
+ LDI R19, 0xBC
+
+
+
+ LDI R20, 0
+ ADD R20, R16
+ ADD R20, R18
+
+ LDI R21, 0
+ ADD R21, R17
+ ADC R21, R19
+
+
+
+ 
+ MOV R20, R18
+ SUB R20, R16
+
+ BRMI HERE
+
+ MOV R21, R19
+ SUB R21, R17
+ 
+ WAIT: JMP WAIT
+
+ HERE:
+ DEC R19
+ MOV R21, R19
+ SUB R21, R17
+ INC R19
+ JMP WAIT

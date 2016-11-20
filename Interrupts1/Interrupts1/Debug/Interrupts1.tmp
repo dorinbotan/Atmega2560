@@ -1,0 +1,29 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATmega2560"</DEVICE>
+ <WORKING_DIR>C:\Users\Dorin\Atmel\Interrupts1\Interrupts1\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Dorin\Atmel\Interrupts1\Interrupts1\Interrupts1.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\m2560def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Dorin\Atmel\Interrupts1\Interrupts1\Debug/Interrupts1.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Interrupts1.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Interrupts1.map</FILE>
+  <FILE>Interrupts1.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <MAIN><FILE>C:\Users\Dorin\Atmel\Interrupts1\Interrupts1\Interrupts1.asm</FILE><LINE>11</LINE></MAIN>
+  <T1_OV_ISR><FILE>C:\Users\Dorin\Atmel\Interrupts1\Interrupts1\Interrupts1.asm</FILE><LINE>44</LINE></T1_OV_ISR>
+  <T0_OV_ISR><FILE>C:\Users\Dorin\Atmel\Interrupts1\Interrupts1\Interrupts1.asm</FILE><LINE>56</LINE></T0_OV_ISR>
+  <HERE><FILE>C:\Users\Dorin\Atmel\Interrupts1\Interrupts1\Interrupts1.asm</FILE><LINE>37</LINE></HERE>
+ </LABELS>
+</ASSEMBLER_INFO>

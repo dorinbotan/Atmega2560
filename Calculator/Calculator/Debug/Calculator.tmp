@@ -1,0 +1,40 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATmega2560"</DEVICE>
+ <WORKING_DIR>C:\Users\Dorin\Atmel\Calculator\Calculator\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Dorin\Atmel\Calculator\Calculator\Calculator.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\m2560def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Dorin\Atmel\Calculator\Calculator\Debug/Calculator.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Calculator.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Calculator.map</FILE>
+  <FILE>Calculator.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Users\Dorin\Atmel\Calculator\Calculator\Calculator.asm</FILE><LINE>22</LINE></RESET>
+  <MAIN><FILE>C:\Users\Dorin\Atmel\Calculator\Calculator\Calculator.asm</FILE><LINE>26</LINE></MAIN>
+  <DELAY><FILE>C:\Users\Dorin\Atmel\Calculator\Calculator\Calculator.asm</FILE><LINE>120</LINE></DELAY>
+  <REG><FILE>C:\Users\Dorin\Atmel\Calculator\Calculator\Calculator.asm</FILE><LINE>56</LINE></REG>
+  <FIRST><FILE>C:\Users\Dorin\Atmel\Calculator\Calculator\Calculator.asm</FILE><LINE>61</LINE></FIRST>
+  <SECOND><FILE>C:\Users\Dorin\Atmel\Calculator\Calculator\Calculator.asm</FILE><LINE>67</LINE></SECOND>
+  <OPERATION><FILE>C:\Users\Dorin\Atmel\Calculator\Calculator\Calculator.asm</FILE><LINE>71</LINE></OPERATION>
+  <SUM><FILE>C:\Users\Dorin\Atmel\Calculator\Calculator\Calculator.asm</FILE><LINE>86</LINE></SUM>
+  <DIF><FILE>C:\Users\Dorin\Atmel\Calculator\Calculator\Calculator.asm</FILE><LINE>91</LINE></DIF>
+  <MLT><FILE>C:\Users\Dorin\Atmel\Calculator\Calculator\Calculator.asm</FILE><LINE>96</LINE></MLT>
+  <DIV><FILE>C:\Users\Dorin\Atmel\Calculator\Calculator\Calculator.asm</FILE><LINE>101</LINE></DIV>
+  <WAIT><FILE>C:\Users\Dorin\Atmel\Calculator\Calculator\Calculator.asm</FILE><LINE>108</LINE></WAIT>
+  <LOOP3><FILE>C:\Users\Dorin\Atmel\Calculator\Calculator\Calculator.asm</FILE><LINE>122</LINE></LOOP3>
+  <LOOP2><FILE>C:\Users\Dorin\Atmel\Calculator\Calculator\Calculator.asm</FILE><LINE>123</LINE></LOOP2>
+  <LOOP1><FILE>C:\Users\Dorin\Atmel\Calculator\Calculator\Calculator.asm</FILE><LINE>124</LINE></LOOP1>
+ </LABELS>
+</ASSEMBLER_INFO>

@@ -1,0 +1,29 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATmega2560"</DEVICE>
+ <WORKING_DIR>C:\Users\Dorin\Atmel\Factorial\Factorial\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Dorin\Atmel\Factorial\Factorial\Factorial.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\m2560def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Dorin\Atmel\Factorial\Factorial\Debug/Factorial.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Factorial.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Factorial.map</FILE>
+  <FILE>Factorial.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <FACT><FILE>C:\Users\Dorin\Atmel\Factorial\Factorial\Factorial.asm</FILE><LINE>11</LINE></FACT>
+  <DONE><FILE>C:\Users\Dorin\Atmel\Factorial\Factorial\Factorial.asm</FILE><LINE>9</LINE></DONE>
+  <ONE><FILE>C:\Users\Dorin\Atmel\Factorial\Factorial\Factorial.asm</FILE><LINE>25</LINE></ONE>
+  <HIGHER><FILE>C:\Users\Dorin\Atmel\Factorial\Factorial\Factorial.asm</FILE><LINE>33</LINE></HIGHER>
+ </LABELS>
+</ASSEMBLER_INFO>

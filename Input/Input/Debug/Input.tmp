@@ -1,0 +1,32 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATmega2560"</DEVICE>
+ <WORKING_DIR>C:\Users\Dorin\Atmel\Input\Input\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Dorin\Atmel\Input\Input\Input.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\m2560def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Dorin\Atmel\Input\Input\Debug/Input.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Input.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Input.map</FILE>
+  <FILE>Input.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <BACK><FILE>C:\Users\Dorin\Atmel\Input\Input\Input.asm</FILE><LINE>11</LINE></BACK>
+  <TRY><FILE>C:\Users\Dorin\Atmel\Input\Input\Input.asm</FILE><LINE>19</LINE></TRY>
+  <DELAY><FILE>C:\Users\Dorin\Atmel\Input\Input\Input.asm</FILE><LINE>30</LINE></DELAY>
+  <INCREMENT><FILE>C:\Users\Dorin\Atmel\Input\Input\Input.asm</FILE><LINE>24</LINE></INCREMENT>
+  <LOOP3><FILE>C:\Users\Dorin\Atmel\Input\Input\Input.asm</FILE><LINE>32</LINE></LOOP3>
+  <LOOP2><FILE>C:\Users\Dorin\Atmel\Input\Input\Input.asm</FILE><LINE>33</LINE></LOOP2>
+  <LOOP1><FILE>C:\Users\Dorin\Atmel\Input\Input\Input.asm</FILE><LINE>34</LINE></LOOP1>
+ </LABELS>
+</ASSEMBLER_INFO>

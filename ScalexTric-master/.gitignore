@@ -1,0 +1,10 @@
+doxygen-doc/
+*.elf
+FreeRTOS/Source/readme.txt
+*.o
+*.d
+*.eep
+*.hex
+*.lss
+*.map
+*.srec

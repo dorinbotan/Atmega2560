@@ -1,0 +1,28 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATmega2560"</DEVICE>
+ <WORKING_DIR>C:\Users\Dorin\Atmel\Timers1\Timers1\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Dorin\Atmel\Timers1\Timers1\Timers1.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\m2560def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Dorin\Atmel\Timers1\Timers1\Debug/Timers1.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Timers1.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Timers1.map</FILE>
+  <FILE>Timers1.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <BEGIN><FILE>C:\Users\Dorin\Atmel\Timers1\Timers1\Timers1.asm</FILE><LINE>4</LINE></BEGIN>
+  <DELAY><FILE>C:\Users\Dorin\Atmel\Timers1\Timers1\Timers1.asm</FILE><LINE>10</LINE></DELAY>
+  <AGAIN><FILE>C:\Users\Dorin\Atmel\Timers1\Timers1\Timers1.asm</FILE><LINE>20</LINE></AGAIN>
+ </LABELS>
+</ASSEMBLER_INFO>

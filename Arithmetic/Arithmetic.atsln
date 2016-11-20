@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{18226A42-8477-4023-8AD2-40C49DA407C9}") = "Arithmetic", "Arithmetic\Arithmetic.asmproj", "{527201F1-02B2-41E9-9594-09A6015FC0B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{527201F1-02B2-41E9-9594-09A6015FC0B8}.Debug|AVR.ActiveCfg = Debug|AVR
+		{527201F1-02B2-41E9-9594-09A6015FC0B8}.Debug|AVR.Build.0 = Debug|AVR
+		{527201F1-02B2-41E9-9594-09A6015FC0B8}.Release|AVR.ActiveCfg = Release|AVR
+		{527201F1-02B2-41E9-9594-09A6015FC0B8}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,149 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>FreeRTOS_VIA_Demo</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CandCPP</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>FreeRTOS_VIA_Demo</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="FreeRTOS_VIA2.cproj" File="FreeRTOS_VIA2.cproj" ReplaceParameters="true">
+      <Folder Name="libm" TargetFolderName="libm" />
+      <Folder Name="src" TargetFolderName="src">
+        <Folder Name="Common" TargetFolderName="Common">
+          <Folder Name="include" TargetFolderName="include">
+            <ProjectItem ReplaceParameters="true" TargetFileName="AltBlckQ.h">AltBlckQ.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="AltBlock.h">AltBlock.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="AltPollQ.h">AltPollQ.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="AltQTest.h">AltQTest.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="BlockQ.h">BlockQ.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="blocktim.h">blocktim.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="comtest.h">comtest.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="comtest_strings.h">comtest_strings.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="comtest2.h">comtest2.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="countsem.h">countsem.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="crflash.h">crflash.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="crhook.h">crhook.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="death.h">death.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="dynamic.h">dynamic.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="EventGroupsDemo.h">EventGroupsDemo.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="fileIO.h">fileIO.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="flash.h">flash.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="flash_timer.h">flash_timer.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="flop.h">flop.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="GenQTest.h">GenQTest.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="integer.h">integer.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="IntQueue.h">IntQueue.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="IntSemTest.h">IntSemTest.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="mevents.h">mevents.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="partest.h">partest.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="PollQ.h">PollQ.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="print.h">print.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="QPeek.h">QPeek.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="QueueOverwrite.h">QueueOverwrite.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="QueueSet.h">QueueSet.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="QueueSetPolling.h">QueueSetPolling.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="recmutex.h">recmutex.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="semtest.h">semtest.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="serial.h">serial.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="TaskNotify.h">TaskNotify.h</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="TimerDemo.h">TimerDemo.h</ProjectItem>
+          </Folder>
+          <Folder Name="Minimal" TargetFolderName="Minimal">
+            <ProjectItem ReplaceParameters="true" TargetFileName="AltBlckQ.c">AltBlckQ.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="AltBlock.c">AltBlock.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="AltPollQ.c">AltPollQ.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="AltQTest.c">AltQTest.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="BlockQ.c">BlockQ.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="blocktim.c">blocktim.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="comtest.c">comtest.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="comtest_strings.c">comtest_strings.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="countsem.c">countsem.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="crflash.c">crflash.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="crhook.c">crhook.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="death.c">death.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="dynamic.c">dynamic.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="EventGroupsDemo.c">EventGroupsDemo.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="flash.c">flash.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="flash_timer.c">flash_timer.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="flop.c">flop.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="GenQTest.c">GenQTest.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="integer.c">integer.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="IntQueue.c">IntQueue.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="IntSemTest.c">IntSemTest.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="PollQ.c">PollQ.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="QPeek.c">QPeek.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="QueueOverwrite.c">QueueOverwrite.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="QueueSet.c">QueueSet.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="QueueSetPolling.c">QueueSetPolling.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="recmutex.c">recmutex.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="semtest.c">semtest.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="sp_flop.c">sp_flop.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="TaskNotify.c">TaskNotify.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="TimerDemo.c">TimerDemo.c</ProjectItem>
+          </Folder>
+        </Folder>
+        <Folder Name="FreeRTOS" TargetFolderName="FreeRTOS">
+          <Folder Name="License" TargetFolderName="License">
+            <ProjectItem ReplaceParameters="true" TargetFileName="license.txt">license.txt</ProjectItem>
+          </Folder>
+          <Folder Name="Source" TargetFolderName="Source">
+            <Folder Name="include" TargetFolderName="include">
+              <ProjectItem ReplaceParameters="true" TargetFileName="croutine.h">croutine.h</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="deprecated_definitions.h">deprecated_definitions.h</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="event_groups.h">event_groups.h</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="FreeRTOS.h">FreeRTOS.h</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="list.h">list.h</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="mpu_wrappers.h">mpu_wrappers.h</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="portable.h">portable.h</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="projdefs.h">projdefs.h</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="queue.h">queue.h</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="semphr.h">semphr.h</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="StackMacros.h">StackMacros.h</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="stdint.readme">stdint.readme</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="task.h">task.h</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="timers.h">timers.h</ProjectItem>
+            </Folder>
+            <Folder Name="portable" TargetFolderName="portable">
+              <Folder Name="GCC" TargetFolderName="GCC">
+                <Folder Name="ATMega256x" TargetFolderName="ATMega256x">
+                  <ProjectItem ReplaceParameters="true" TargetFileName="port.c">port.c</ProjectItem>
+                  <ProjectItem ReplaceParameters="true" TargetFileName="portmacro.h">portmacro.h</ProjectItem>
+                </Folder>
+              </Folder>
+              <Folder Name="MemMang" TargetFolderName="MemMang">
+                <ProjectItem ReplaceParameters="true" TargetFileName="heap_1.c">heap_1.c</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="heap_2.c">heap_2.c</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="heap_3.c">heap_3.c</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="heap_4.c">heap_4.c</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="heap_5.c">heap_5.c</ProjectItem>
+              </Folder>
+              <ProjectItem ReplaceParameters="true" TargetFileName="croutine.c">croutine.c</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="readme.txt">readme.txt</ProjectItem>
+            </Folder>
+            <ProjectItem ReplaceParameters="true" TargetFileName="event_groups.c">event_groups.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="list.c">list.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="queue.c">queue.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="readme.txt">readme.txt</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="tasks.c">tasks.c</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="timers.c">timers.c</ProjectItem>
+          </Folder>
+          <ProjectItem ReplaceParameters="true" TargetFileName="readme.txt">readme.txt</ProjectItem>
+        </Folder>
+        <Folder Name="serial" TargetFolderName="serial">
+          <ProjectItem ReplaceParameters="true" TargetFileName="serial.c">serial.c</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="FreeRTOSConfig.h">FreeRTOSConfig.h</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="main.c">main.c</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="makefile">makefile</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

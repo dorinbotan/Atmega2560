@@ -1,0 +1,35 @@
+/*
+ * Speedometer.asm
+ *
+ *  Created: 30/10/15 14:17:44
+ *   Author: Dorin
+ */
+.include <LegoInterface_asm.mht>
+
+LDI R16, 0xFF
+OUT DDRB, R16
+
+MAIN:
+COM R16
+OUT DDRF, R16
+
+IN R17, PORTF
+COM R17
+OUT PORTB, R17
+
+COM R16
+OUT DDRF, R16
+
+RJMP MAIN
+
+DELAY:
+LDI R28, 20
+LOOP3: LDI R29, 255
+LOOP2: LDI R30, 255
+LOOP1: DEC R30
+BRNE LOOP1
+DEC R29
+BRNE LOOP2
+DEC R28 
+BRNE LOOP3
+RET

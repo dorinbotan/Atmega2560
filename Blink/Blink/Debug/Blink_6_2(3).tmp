@@ -1,0 +1,31 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.0</VERSION>
+ <DEVICE>"ATmega2560"</DEVICE>
+ <WORKING_DIR>C:\Users\Dorin\Atmel\Blink\Blink\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.0.98\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Dorin\Atmel\Blink\Blink\Blink.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.0.98\avrasm\inc\m2560def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Dorin\Atmel\Blink\Blink\Debug\Blink_6_2(3).obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Blink_6_2(3).hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Blink_6_2(3).map</FILE>
+  <FILE>Blink_6_2(3).lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <BACK><FILE>C:\Users\Dorin\Atmel\Blink\Blink\Blink.asm</FILE><LINE>11</LINE></BACK>
+  <DELAY><FILE>C:\Users\Dorin\Atmel\Blink\Blink\Blink.asm</FILE><LINE>20</LINE></DELAY>
+  <LOOP3><FILE>C:\Users\Dorin\Atmel\Blink\Blink\Blink.asm</FILE><LINE>22</LINE></LOOP3>
+  <LOOP2><FILE>C:\Users\Dorin\Atmel\Blink\Blink\Blink.asm</FILE><LINE>23</LINE></LOOP2>
+  <LOOP1><FILE>C:\Users\Dorin\Atmel\Blink\Blink\Blink.asm</FILE><LINE>24</LINE></LOOP1>
+ </LABELS>
+</ASSEMBLER_INFO>

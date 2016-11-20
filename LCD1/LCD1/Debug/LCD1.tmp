@@ -1,0 +1,32 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATmega2560"</DEVICE>
+ <WORKING_DIR>C:\Users\Dorin\Atmel\LCD1\LCD1\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Dorin\Atmel\LCD1\LCD1\LCD1.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\m2560def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Dorin\Atmel\LCD1\LCD1\Debug/LCD1.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>LCD1.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>LCD1.map</FILE>
+  <FILE>LCD1.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <DELAY_2ms><FILE>C:\Users\Dorin\Atmel\LCD1\LCD1\LCD1.asm</FILE><LINE>68</LINE></DELAY_2ms>
+  <CMNDWRT><FILE>C:\Users\Dorin\Atmel\LCD1\LCD1\LCD1.asm</FILE><LINE>33</LINE></CMNDWRT>
+  <DATAWRT><FILE>C:\Users\Dorin\Atmel\LCD1\LCD1\LCD1.asm</FILE><LINE>43</LINE></DATAWRT>
+  <SDELAY><FILE>C:\Users\Dorin\Atmel\LCD1\LCD1\LCD1.asm</FILE><LINE>53</LINE></SDELAY>
+  <DELAY_100us><FILE>C:\Users\Dorin\Atmel\LCD1\LCD1\LCD1.asm</FILE><LINE>58</LINE></DELAY_100us>
+  <DR0><FILE>C:\Users\Dorin\Atmel\LCD1\LCD1\LCD1.asm</FILE><LINE>61</LINE></DR0>
+  <LDR0><FILE>C:\Users\Dorin\Atmel\LCD1\LCD1\LCD1.asm</FILE><LINE>71</LINE></LDR0>
+ </LABELS>
+</ASSEMBLER_INFO>
